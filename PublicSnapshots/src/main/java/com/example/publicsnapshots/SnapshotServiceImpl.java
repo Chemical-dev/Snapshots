@@ -50,8 +50,6 @@ public class SnapshotServiceImpl {
 //                .credentialsProvider(
 //                        StaticCredentialsProvider.create(
 //                                AwsBasicCredentials.create(
-//                                        "AKIAVAED2LMZSGZM5JWS",
-//                                        "fh7aMuxCzG6xU94ALdReCGrTtSsbUGtsp4x2mOmx"
 //                                )
 //                        )
 //                )
