@@ -63,7 +63,7 @@ public class SnapshotServiceImpl {
     }
 
     public List<PublicSnapShots> getSnapshot() {
-        stringSet.add("343873837875");
+        stringSet.add("");
 //        System.out.println(connectEC2Client());
         DescribeSnapshotsResult result = connectEC2Client().describeSnapshots(describeSnapshotsRequest);
         List<Snapshot> snapshots = result.getSnapshots();
