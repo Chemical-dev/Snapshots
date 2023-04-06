@@ -41,7 +41,7 @@ import static org.apache.logging.log4j.message.MapMessage.MapFormat.JSON;
 public class SnapshotServiceImpl {
   //  private DescribeSnapshotsRequest describeSnapshotsRequest = new DescribeSnapshotsRequest();
     private Set<String> stringSet = new HashSet<>();
-    private DescribeSnapshotsRequest describeSnapshotsRequest = new DescribeSnapshotsRequest().withOwnerIds("343873837875");
+    private DescribeSnapshotsRequest describeSnapshotsRequest = new DescribeSnapshotsRequest().withOwnerIds("");
     private List<PublicSnapShots> snapShotsList = new ArrayList<>();
 
 //    public Ec2Client connectEC2Client() {
